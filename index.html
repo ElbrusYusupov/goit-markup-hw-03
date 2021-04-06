@@ -15,12 +15,12 @@
     <!-- Header -->
     <header class="page-header">
         <div class="container">
-            <a href="./index.html" class="logo"><span class="logo-half">Web</span>Studio</a>
             <nav class="navigation-menu">
-                <ul class="list">
-                    <li> <a href="./index.html" class="nav-link link current">Студия</a></li>
-                    <li> <a href="./portfolio.html" class="nav-link link">Портфолио</a></li>
-                    <li> <a href="#" class="nav-link link">Контакты</a></li>
+                <a href="./index.html" class="logo"><span class="logo-half">Web</span>Studio</a>
+                <ul class="list nav-list">
+                    <li class="nav-items"> <a href="./index.html" class="nav-link link current">Студия</a></li>
+                    <li class="nav-items"> <a href="./portfolio.html" class="nav-link link">Портфолио</a></li>
+                    <li class="nav-items"> <a href="#" class="nav-link link">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="list contact-list">
@@ -47,20 +47,20 @@
         <!-- About features section -->
         <section class="features-section">
             <div class="container">
-                <ul class="list">
-                    <li>
+                <ul class="list features-set">
+                    <li class="feature-item">
                         <h3 class="feature-title">Внимание к деталям</h3>
                         <p class="feature-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li>
+                    <li class="feature-item">
                         <h3 class="feature-title">Пунктуальность</h3>
                         <p class="feature-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li>
+                    <li class="feature-item">
                         <h3 class="feature-title">Планирование</h3>
                         <p class="feature-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li>
+                    <li class="feature-item">
                         <h3 class="feature-title">Современные технологии</h3>
                         <p class="feature-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -73,20 +73,21 @@
         <section class="services-section">
             <div class="container">
                 <h2 class="service-title">Чем мы занимаемся</h2>
-                <ul class="list">
-                    <div class="card-service">
-                        <li>
-                            <img src="./images/box1.jpg" alt="website development" height="294" width="370">
-                        </li>
-                        <li>
-                            <img src="./images/box2.jpg" alt="web design creation" height="294" width="370">
-                        </li>
-                        <li>
-                            <img src="./images/box3.jpg" alt="developer tools" height="294" width="370">
-                        </li>
-                    </div>   
+                <ul class="list service-set">
+                    <li class="service-item">
+                        <img src="./images/box1.jpg" alt="website development" height="294" width="370">
+                    </li>
+
+                    <li class="service-item">
+                        <img src="./images/box2.jpg" alt="web design creation" height="294" width="370">
+                    </li>
+
+                    <li class="service-item">
+                        <img src="./images/box3.jpg" alt="developer tools" height="294" width="370">
+                    </li>
                 </ul>
-            </div>
+            </div>    
+           
             
         </section>
         <!-- /About services section -->
@@ -95,55 +96,39 @@
         <section class="team-section">
             <div class="container">
                 <h2 class="team-title">Наша команда</h2>
-                <ul class="list">
-                    <div class="card-team">
-                        <li>
+                <ul class="list team-set">
+                        <li class="team-card">
+                            <img src="./images/pdesigner.jpg" alt="member of the team" height="260" width="270">
                             <div class="card-member">
-                                <div class="card-thumb">
-                                    <img src="./images/pdesigner.jpg" alt="member of the team" height="260" width="270">
-                                </div>
-                        
                                 <h3 class="team-member">Игорь Демьяненко</h3>
                                 <p class="profession">Product Designer</p>
                             </div>
-                        
                         </li>
-                        <li>
+
+                        <li class="team-card">
+                            <img src="./images/fdeveloper.jpg" alt="member of the team" height="260" width="270">
                             <div class="card-member">
-                                <div class="card-thumb">
-                                    <img src="./images/fdeveloper.jpg" alt="member of the team" height="260" width="270">
-                                </div>
-                        
                                 <h3 class="team-member">Ольга Репина</h3>
                                 <p class="profession">Frontend Developer</p>
                             </div>
-                        
                         </li>
-                        <li>
+
+                        <li class="team-card">
+                            <img src="./images/marketing.jpg" alt="member of the team" height="260" width="270">  
                             <div class="card-member">
-                                <div class="card-thumb">
-                                    <img src="./images/marketing.jpg" alt="member of the team" height="260" width="270">
-                                </div>
-                        
                                 <h3 class="team-member">Николай Тарасов</h3>
                                 <p class="profession">Marketing</p>
                             </div>
-                        
-                        
                         </li>
-                        <li>
+
+                        <li class="team-card">
+                            
+                            <img src="./images/uldesigner.jpg" alt="member of the team" height="260" width="270">
                             <div class="card-member">
-                                <div class="card-thumb">
-                                    <img src="./images/uldesigner.jpg" alt="member of the team" height="260" width="270">
-                                </div>
-                        
                                 <h3 class="team-member">Михаил Ермаков</h3>
                                 <p class="profession">UI Designer</p>
                             </div>
-                        
-                        </li>
-                    </div>
-                   
+                        </li>                 
                 </ul>
             </div>
             
@@ -155,9 +140,7 @@
     <!-- Footer -->
     <footer class="footer-section">
         <div class="container">
-            <div class="logo-footer-logo">
             <a href="./index.html" class="logo footer-logo"><span class="logo-half">Web</span>Studio</a>
-            </div>
             <address>
                 <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
                 <ul class="list contact-list contact-footer">
